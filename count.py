@@ -1,17 +1,9 @@
-import os
+import glob
 
-def count():
-	return len(os.listdir("Logo Images"))
+count = 0
+for each in range(65, 91):
+	subfolder_list = glob.glob(f"{chr(each)}/*")
+	count += len(subfolder_list)
+	print(chr(each), len(subfolder_list))
 
-def create_list():
-	if "logo_list.txt" in os.listdir():
-		os.remove("logo_list.txt")
-
-	for each in os.listdir("Logo Images"):
-		print(each)
-		with open("logo_list.txt", 'a') as outfile:
-			outfile.write(each + "\n")
-
-if __name__ == '__main__':
-	create_list()
-	print(f"Count: {count()}")
+print(count)

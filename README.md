@@ -1,7 +1,7 @@
 # Logo Images Dataset
 Dataset of logo images of 627 brands/companies
 
-
+## A few sample images from the dataset
 |||||
 |--|--|--|--|
 |<img src="sample-images/sample (1).jpg" height=100 width=100>|<img src="sample-images/sample (10).jpg" height=100 width=100>|<img src="sample-images/sample (11).jpg" height=100 width=100>|<img src="sample-images/sample (12).jpg" height=100 width=100>|
@@ -18,7 +18,12 @@ Dataset of logo images of 627 brands/companies
 |<img src="sample-images/sample (5).jpg" height=100 width=100>|<img src="sample-images/sample (50).jpg" height=100 width=100>|<img src="sample-images/sample (51).jpg" height=100 width=100>|<img src="sample-images/sample (52).jpg" height=100 width=100>|
 |<img src="sample-images/sample (6).jpg" height=100 width=100>|<img src="sample-images/sample (7).jpg" height=100 width=100>|<img src="sample-images/sample (8).jpg" height=100 width=100>|<img src="sample-images/sample (9).jpg" height=100 width=100>|
 
-### Scraped from https://logodix.com/ using web scraper
+## Sources
+- Google Images
+- Bing Images
+- Yahoo Images
+- DuckDuckGo Images
+- logodix.com
 
 ## Contributing
 You can contribute to this repository by reviewing images in the dataset.
@@ -30,5 +35,9 @@ You can contribute to this repository by reviewing images in the dataset.
 1. Commit your changes with an appropriate message.
 1. Create a pull request
 
+## Disclaimer
+```text
+Please note that this dataset is provided solely for educational or research purposes. All of the images in this dataset were gathered from the internet and the copyright is retained by the original creators. If any image/s belong to you and you wish to have them deleted from the dataset, please let us know by creating an issue for this repository.
+```
 
 ### Made with lots of ⏱️, 📚 and ☕ 
