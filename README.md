@@ -1,5 +1,7 @@
 # Logo Images Dataset
-Dataset consisting of 556018 logo images of 625 brands/companies
+Dataset consisting of 556018 logo images of 625 brands/companies scraped from the web 
+
+Images from Google, Bing, DuckDuckGo and Yahoo were scraped using [Image Scraper](https://github.com/InputBlackBoxOutput/Image-Scraper)
 
 ## A few logos from the dataset
 ![](sample-images/collage.png)
